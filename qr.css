@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.parentdiv{
+
+    border:solid black 1px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+    display: inline-block;
+    justify-content: center;
+    align-items:center;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5%;
+    padding: 20px;
+    
+}
+
+.qrcss{
+    background-image: url(image-qr-code.png);
+    padding: 50%;
+    margin-top: 1%;
+    border-radius: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.h1tag h1{
+    font-family: 'Outfit', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: hsl(218, 44%, 22%);
+
+}
+
+.content p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: hsl(220, 15%, 55%);
+    word-spacing: 3.5px;
+
+}
+
+
+
+/* font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif; */
